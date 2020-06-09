@@ -1,0 +1,78 @@
+@import "tailwindcss/base";
+
+/* extra css goes here */
+
+ul {
+  list-style-type: disc;
+}
+
+p {
+  @apply my-4 leading-relaxed;
+}
+
+.component {
+  @apply m-4 p-4 mb-10;
+  @screen print {
+    @apply mb-4;
+  }
+}
+
+.text-primary {
+  @apply text-blue-800 bg-white;
+}
+
+.text-secondary {
+  @apply text-gray-800 bg-white text-lg;
+  @screen print {
+    @apply text-xs;
+  }
+}
+
+.decoration {
+  @apply text-white bg-blue-700;
+  @screen print {
+    @apply py-0 my-0;
+  }
+}
+
+.text-big {
+  @apply text-2xl font-extrabold;
+  @screen print {
+    @apply text-lg;
+  }
+}
+
+.text-small {
+  @apply text-sm;
+  @screen print {
+    @apply text-xs;
+  }
+}
+
+.chapter {
+  @apply text-big text-primary border-b border-blue-800 mb-6;
+}
+
+.link {
+  @apply text-blue-700;
+  @screen print {
+    @apply text-xs;
+  }
+}
+
+.form-input {
+  @apply border border-blue-600 rounded my-2 px-2 text-blue-800 min-w-0;
+
+  @screen md {
+    @apply max-w-sm;
+  }
+  &:hover {
+     @apply border-blue-800;
+  }
+  &:focus {
+    @apply border-transparent outline-none shadow-outline;
+  }
+}
+
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
