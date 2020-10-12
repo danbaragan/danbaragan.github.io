@@ -58,6 +58,18 @@ p {
   @screen print {
     @apply text-xs;
   }
+  &:hover {
+    @apply underline;
+  }
+}
+.internal-link {
+    @apply link font-normal mr-2 text-gray-500;
+    &:hover {
+      @apply text-gray-600 no-underline;
+    }
+    &:active {
+      @apply text-gray-500;
+    }
 }
 
 .form-input {
