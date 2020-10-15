@@ -17,12 +17,16 @@ module.exports = {
           print: '0',
           sm: '3rem',
         },
+        margin: {
+          default: '0',
+          print: '0',
+          sm: '3rem',
+        }
       },
       screens: {
         'print': {'raw': 'print'}
       }
     },
   },
-  variants: {},
   plugins: [],
 }
