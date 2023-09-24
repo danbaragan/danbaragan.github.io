@@ -2,7 +2,8 @@
 - Is styled using [tailwind css](https://tailwindcss.com/)
 - Please check package.json for other Open Source projects used in building this one.
 
-`NODE_ENV=production yarn run build`
-`git subtree push --prefix build origin test`
+Build:
+- `NODE_ENV=production yarn run build`
+- `git subtree push --prefix build origin test`
 or
-`git push origin `git subtree split --prefix build`:master --force`
+- ```git push origin `git subtree split --prefix build`:master --force```
