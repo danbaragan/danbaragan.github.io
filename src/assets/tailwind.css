@@ -66,7 +66,7 @@ p {
 
 .link {
   @apply text-blue-700;
-  @screen print {
+  @media print {
     @apply text-xs;
   }
   &:hover {
