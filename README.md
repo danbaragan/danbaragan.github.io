@@ -4,6 +4,6 @@
 
 Build:
 - `NODE_ENV=production yarn run build`
-- `git subtree push --prefix build origin test`
+- `git subtree push --prefix build origin master`
 or
 - ```git push origin `git subtree split --prefix build`:master --force```
