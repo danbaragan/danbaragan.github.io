@@ -715,7 +715,8 @@ p {
   }
   }
 .link:hover {
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
 }
 .internal-link {
   margin-right: 0.5rem;
@@ -731,10 +732,12 @@ p {
   }
   }
 .internal-link:hover {
-  text-decoration-line: underline;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity, 1));
-  text-decoration-line: none;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
 .internal-link:active {
   --tw-text-opacity: 1;
