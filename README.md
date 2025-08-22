@@ -4,6 +4,7 @@
 
 Build:
 - `NODE_ENV=production npm run build`
+- `git add . && git commit`
 - `git subtree push --prefix build origin master`
 or
 - ```git push origin `git subtree split --prefix build`:master --force```
